@@ -35,5 +35,9 @@ install kubectl binary on system following the link mentioned below
 https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 ```
 
+install kind on system following the link mentioned below
+```
+https://kind.sigs.k8s.io/docs/user/quick-start/#installation
+```
 
 
