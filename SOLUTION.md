@@ -4,4 +4,6 @@ Note - This project is divided in multiple steps , each step being named
 as step 1,step 2 and so on. 
 
 **step 1**
+Configuration of my current system is
+![alt text](image.png)
 
