@@ -24,10 +24,16 @@ installing container runtime engine since we are using kind -
 
 we are usng docker as container runtime engine for this project
 
-install docker engine using following link mentioned below
+install docker engine following the link mentioned below
 ```
 https://docs.docker.com/engine/install/
 
 ```
+install kubectl binary on system following the link mentioned below 
+
+```
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+```
+
 
 
