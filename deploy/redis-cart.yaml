@@ -26,9 +26,9 @@ spec:
         #   periodSeconds: 5
         #   tcpSocket:
         #     port: 6379
-        # volumeMounts:
-        # - mountPath: /data
-        #   name: redis-data
+        volumeMounts:
+        - mountPath: /data
+          name: redis-data
         resources:
           limits:
             memory: 256Mi
