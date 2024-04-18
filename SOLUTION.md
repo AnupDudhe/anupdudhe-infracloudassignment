@@ -52,13 +52,21 @@ setting up worker node -
 how to resolve the error of crashloopbackoff for deployment cartsservice
 ![alt text](image-5.png)
 
+so the issue with this error is we need to authentication to pull images
+from gcr
 
-
-
+first we will install sdk kit of gcp
 
 ![alt text](image-6.png)
 
+secondly we will do gc autherization login 
+it will ask to hit a browser link and in their you will get a key to insert inside the autherization code.
+
 ![alt text](image-4.png)
+
+
+
+
 
 configuring docker client by running following command
 
