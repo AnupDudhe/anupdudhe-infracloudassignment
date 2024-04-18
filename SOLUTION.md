@@ -5,5 +5,12 @@ as step 1,step 2 and so on.
 
 **step 1**
 Configuration of my current system is
+Memory -
 ![alt text](image.png)
+
+Storage -
+![alt text](image-1.png)
+
+CPU details -
+![alt text](image-2.png)
 
