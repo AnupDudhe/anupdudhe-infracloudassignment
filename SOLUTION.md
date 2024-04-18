@@ -18,3 +18,10 @@ CPU details -
 
 ![alt text](image-2.png)
 
+linux debian used - Ubuntu
+
+installing container runtime engine since we are using kind -
+
+we are usng docker as container runtime engine for this project
+
+install docker engine using following link mentioned below
