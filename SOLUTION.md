@@ -56,5 +56,13 @@ how to resolve the error of crashloopbackoff for deployment cartsservice
 
 
 
+![alt text](image-6.png)
 
 ![alt text](image-4.png)
+
+configuring docker client by running following command
+
+![alt text](image-7.png)
+
+
+![alt text](image-8.png)
