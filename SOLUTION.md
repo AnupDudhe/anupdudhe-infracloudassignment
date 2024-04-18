@@ -64,6 +64,9 @@ it will ask to hit a browser link and in their you will get a key to insert insi
 
 ![alt text](image-4.png)
 
+once the autherization is done you will get following prompt
+
+![alt text](image-9.png)
 
 
 
