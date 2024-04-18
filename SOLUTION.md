@@ -68,10 +68,7 @@ once the autherization is done you will get following prompt
 
 ![alt text](image-9.png)
 
-
-
-
-configuring docker client by running following command
+we need to configure docker client by running following command
 
 ![alt text](image-7.png)
 
