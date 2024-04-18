@@ -3,5 +3,5 @@ Procedure to deploy E-commerce website Online Boutique which is a microservice a
 Note - This project is divided in multiple steps , each step being named
 as step1,step2.. 
 
-**step1**
+**step 1**
 
