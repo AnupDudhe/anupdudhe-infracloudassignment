@@ -46,3 +46,15 @@ setting up worker node -
 ![alt text](image-3.png)
 
 
+
+
+
+how to resolve the error of crashloopbackoff for deployment cartsservice
+![alt text](image-5.png)
+
+
+
+
+
+
+![alt text](image-4.png)
