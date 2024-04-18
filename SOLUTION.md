@@ -41,4 +41,8 @@ install kind on system following the link mentioned below
 https://kind.sigs.k8s.io/docs/user/quick-start/#installation
 ```
 
+setting up worker node -
+
+![alt text](image-3.png)
+
 
