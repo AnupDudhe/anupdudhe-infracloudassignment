@@ -72,5 +72,31 @@ we need to configure docker client by running following command
 
 ![alt text](image-7.png)
 
-
+once the authentication of docker engine and gcr is done
+we once check wether docker is able to pull image or not manually
+```
+docker pull gcr.io/google-samples/microservices-demo/cartservice:v0.3.1
+```
 ![alt text](image-8.png)
+
+now our docker runtime engine is able to pull gcr image
+
+so the reason why we were facing crashloopbackoff is because 
+of authentication with gcr was needed 
+
+heres the error we were facing for cartservice deployment
+![alt text](image-10.png)
+
+now since we have made neccesary troubleshooting changes
+
+we will once delete the existing deployment
+
+```
+kubectl delete -f cartservice.yaml
+```
+
+and then once again we will deploy it and now the pod will be up and running
+
+![alt text](image-11.png)
+
+and hence we have troubleshooted the cartservice error.
