@@ -11,8 +11,8 @@ spec:
       labels:
         app: redis-cart
     spec:
-      nodeSelector:
-        kubernetes.io/hostname: qa-cluster-control-plane
+      # nodeSelector:
+      #   kubernetes.io/hostname: qa-cluster-control-plane
       containers:
       - name: redis
         image:  redis:alpine
