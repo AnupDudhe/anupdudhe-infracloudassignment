@@ -11,8 +11,8 @@ spec:
       labels:
         app: redis-cart
     spec:
-      nodeSelector:
-        kubernetes.io/hostname: test-worker-2
+      # nodeSelector:
+      #   kubernetes.io/hostname: test-worker-2
       containers:
       - name: redis
         image: redis:7.2.4-alpine
@@ -31,11 +31,11 @@ spec:
           name: redis-data
         resources:
           limits:
-            memory: 256Mi
-            cpu: 125m
+            memory: "256Mi"
+            cpu: "125m"
           requests:
-            cpu: 70m
-            memory: 200Mi
+            cpu: "70m"
+            memory: "200Mi"
       volumes:
       - name: redis-data
         emptyDir: {}
