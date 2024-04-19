@@ -11,11 +11,11 @@ spec:
       labels:
         app: redis-cart
     spec:
-      # nodeSelector:
-      #   kubernetes.io/hostname: test-worker-2
+      nodeSelector:
+        kubernetes.io/hostname: qa-cluster-control-plane
       containers:
       - name: redis
-        image: redis:7.2.4-alpine
+        image:  redis:alpine
         ports:
         - containerPort: 6379
         # readinessProbe:
