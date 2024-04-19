@@ -100,3 +100,13 @@ and then once again we will deploy it and now the pod will be up and running
 ![alt text](image-11.png)
 
 and hence we have troubleshooted the cartservice error.
+while cart service was having error with readiness probe and liveness probe
+
+redis pod was in peding state because
+redis pod was having issues related to nodeselecor as proper hostname of node was not given
+
+
+now aprt from adservice pod other all pods are in running state
+
+![alt text](image-12.png)
+
