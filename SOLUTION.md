@@ -113,4 +113,23 @@ now aprt from adservice pod other all pods are in running state
 
 ![alt text](image-12.png)
 
+Once your all pods are in running state you will hit command 
+```
+kubectl port-forward service/frontend-external 28015:80
+``` 
+![alt text](image-13.png)
 
+now we will hit 
+
+```
+curl localhost:28015 | less
+```
+now since i am using host as aws ec2 instance 
+i am using less
+
+and we will get the website in cli 
+
+![alt text](image-14.png)
+
+
+and hence apart from adservice port all other pods are functioning.
