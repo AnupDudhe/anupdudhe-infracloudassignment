@@ -45,6 +45,9 @@ setting up worker node -
 
 ![alt text](image-3.png)
 
+```
+kubect get nodes
+```
 
 **Step 2**
 
@@ -109,4 +112,5 @@ redis pod was having issues related to nodeselecor as proper hostname of node wa
 now aprt from adservice pod other all pods are in running state
 
 ![alt text](image-12.png)
+
 
